@@ -87,4 +87,4 @@
   (dot->png fname
             (lambda ()
               (ugraph->dot nodes edges))))
-(ugraph->png "uwizard.dot" *wizard-nodes* *wizard-edges*)
+;; (ugraph->png "uwizard.dot" *wizard-nodes* *wizard-edges*)
