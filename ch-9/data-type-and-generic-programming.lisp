@@ -40,3 +40,10 @@ x
 
 (person-age *bob*)
 (setf (person-age *bob*) 36)
+
+(defmethod add ((a number) (b number))
+  (+ a b))
+(defmethod add ((a list) (b list))
+  (append a b))
+(add 3 4)
+(add '(a b) '(c d))
